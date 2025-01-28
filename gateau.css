@@ -1,0 +1,137 @@
+body {
+    background-color: #8ba1bb;
+    font-family: arial;
+}
+
+p.recette {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+div.recette {
+    margin: 0px 45% 60px 45%;
+
+
+}
+
+div.separateur {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+}
+
+
+div.contenue {
+    background-color: white;
+    margin: 45px 10% 60px 10%;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+p.description {
+    text-align: center;
+    color: black;
+    max-width: 400px;
+
+
+
+
+}
+
+div.description,
+p.recette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #6c829dC0;
+    height: 80px;
+
+
+}
+
+table td {
+    text-align: center;
+    font-size: 13px;
+    vertical-align: top;
+
+}
+
+table th {
+    font-size: 15px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+
+}
+
+img {
+    object-fit: cover;
+    min-height: 100px;
+}
+
+div.ingredients_cuisson {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.ingredients ul {
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 44px solid black;
+}
+
+div.cuisson {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+div.prepa {
+
+    padding: 25px;
+    background-color: #adbccd;
+    border-radius: 44px solid black;
+    text-align: center;
+    margin: 25px;
+
+}
+
+div.ing {
+    margin: 25px;
+    padding: 25px;
+    background-color: lightgray;
+    text-align: center;
+    border: 5px solid black transparent;
+
+
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #6c829d;
+}
+
+* {
+    overflow: auto;
+}
